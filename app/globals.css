@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply   bg-[#272727] text-[#d2d8d8] font-[var(--font-kameron)]
+
+}
+
+h1{
+  @apply text-[#ececec] font-[var(--font-catamaran)] text-4xl
+}
+
+h2{
+  @apply font-[var(--font-sanchez)] text-xl
+}
+
+.btn{
+  @apply bg-teal-500 text-white py-1 px-4 rounded-lg hover:bg-teal-700 transition duration-200 ease-out
+}
